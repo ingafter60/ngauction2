@@ -83,3 +83,42 @@ export class AppModule { }
   "..node_modules/bootstrap/dist/js/bootstrap.min.js"
 ]
 >>>>>>> 3e779d90d001c43f77f63180c8eabaf13693f481
+
+
+## 2.7.3. The application component
+
+Listing 2.17. The AppComponent template 
+
+## 2.7.4. The navbar component 
+
+Listing 2.18. The navbar component template 
+
+## 2.7.5. The search component 
+
+Listing 2.19. The search component template 
+
+## 2.7.6. The footer component 
+
+Listing 2.21. The carousel component template 
+
+Listing 2.22. carousel.component.css 
+
+## 2.7.8. The home component 
+
+Listing 2.24. Configuring routes 
+
+Listing 2.25. Mapping an empty path to the home component 
+
+## Summary 
+
+.An Angular application is represented by a hierarchy of components that are packaged into modules.
+
+.Each Angular component contains a template for UI rendering and a class implementing the component’s functionality.
+
+.Templates and styles can be either inlined or stored in separate files.
+
+.Angular CLI is a useful tool even after the project has been generated.
+
+.Data binding is a mechanism to keep the UI of the component and the values in the underlying class in sync.
+
+.You can use third-party JavaScript libraries in Angular projects.
