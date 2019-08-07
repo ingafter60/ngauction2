@@ -29,12 +29,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## 2.7.1. The initial project setup for ngAuction 
 
 ng new ngAuction --prefix nga --routing
+
 ng serve -o
+
 npm i bootstrap jquery popper.js --save-prod
+
 "styles": [
   "styles.css",
   "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 ]
+
 "scripts": [
   "..node_modules/jquery/dist/jquery.min.js",
   "..node_modules/bootstrap/dist/js/bootstrap.min.js"
