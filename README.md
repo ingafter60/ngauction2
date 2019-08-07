@@ -26,7 +26,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+<<<<<<< HEAD
 ## 2.7.1. The initial project setup for ngAuction
+=======
+## 2.7.1. The initial project setup for ngAuction 
+>>>>>>> 3e779d90d001c43f77f63180c8eabaf13693f481
 
 ng new ngAuction --prefix nga --routing
 
@@ -34,6 +38,7 @@ ng serve -o
 
 npm i bootstrap jquery popper.js --save-prod
 
+<<<<<<< HEAD
 "styles": [ "styles.css", "../node_modules/bootstrap/dist/css/bootstrap.min.css" ]
 
 "scripts": [ "..node_modules/jquery/dist/jquery.min.js", "..node_modules/bootstrap/dist/js/bootstrap.min.js" ]
@@ -67,3 +72,14 @@ ng g s shared/product
 })
 
 export class AppModule { }
+=======
+"styles": [
+  "styles.css",
+  "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+]
+
+"scripts": [
+  "..node_modules/jquery/dist/jquery.min.js",
+  "..node_modules/bootstrap/dist/js/bootstrap.min.js"
+]
+>>>>>>> 3e779d90d001c43f77f63180c8eabaf13693f481
