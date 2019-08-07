@@ -25,3 +25,45 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## 2.7.1. The initial project setup for ngAuction
+
+ng new ngAuction --prefix nga --routing
+
+ng serve -o
+
+npm i bootstrap jquery popper.js --save-prod
+
+"styles": [ "styles.css", "../node_modules/bootstrap/dist/css/bootstrap.min.css" ]
+
+"scripts": [ "..node_modules/jquery/dist/jquery.min.js", "..node_modules/bootstrap/dist/js/bootstrap.min.js" ]
+
+## 2.7.2. Generating components for ngAuction 
+
+Listing 2.16. Generating components for ngAuction 
+
+ng g c home
+
+ng g c carousel
+
+ng g c footer
+
+ng g c navbar
+
+ng g c product-item
+
+ng g c product-detail
+
+ng g c search
+
+ng g c stars
+
+ng g s shared/product
+
+@NgModule({
+  ...
+  providers: [ProductService],
+  ...
+})
+
+export class AppModule { }
